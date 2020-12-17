@@ -1,0 +1,112 @@
+.container{
+	width:100%;
+	height:auto;
+}
+.menu{
+	width : 100%;
+	height : 120px;
+	background-color  : rgb(255, 186, 0);
+}
+.up{
+	width: 70%;
+	height : 70px;
+	margin : 0 auto;
+}
+.up ul{
+	list-style : none;
+	
+}
+.up ul li{
+	display : inline-block;
+	padding: 10px;
+}
+.up ul li a{
+	text-decoration : none;
+	font-size : 20px;
+	font-weight : bold;				/*đậm chữ*/
+	color : black;
+	
+}
+.up ul li a img {
+	vertical-align : middle;				/*làm ảnh cùng ngang với chũ*/
+}
+.logo a img{
+	padding-right : 40px;
+}
+
+.down{
+	width :80%;
+	height : 50px;
+}
+.search {
+	width : 600px;
+	height : 36px;
+	background-color : white;
+	margin-left: 260px;
+	border-radius:8px;			/*bo tròn thẻ div*/
+}
+.search input{
+	width : 500px;
+	height : auto;
+	border : 0px;
+	margin-top : 10px;
+	padding-left : 25px;
+	font-size : 15px;border-radius:8px;
+}
+.search button{
+	border : 0px;
+	padding-left: 35px;background-color : white;height : 25px;
+}
+.search button img{
+	width : 25px;
+	height : 25px;
+	vertical-align : middle;
+}
+
+.grid-content{
+	width:1000px;
+	margin: 20px auto;
+	display : grid;
+	grid-template-columns : 150px 150px 150px 150px 150px 150px;		/*số cột */
+	grid-template-rows : 150px 150px 150px 150px 150px 150px;				/*số hàng */
+	grid-gap: 10px		;									/*khoảng cách*/
+	
+
+}
+.grid-content img{
+	width : 150px;
+	height: 150px;
+	border-radius : 15px;
+}
+.item1 {
+	grid-column-start:1;
+	grid-column-end:span 2;
+	position : relative;
+}
+.item1 img{
+	width : 310px;
+}
+.item2 {
+	grid-column-start:3;
+	grid-column-end:span 2;
+	position : relative;/* để căn chỉnh chữ nổi lên */
+}
+.item2 img{
+	width : 310px;
+}
+
+h2 {
+	position : absolute;/*chữ nổi lên */
+	top : 80px;
+	left : 30px;
+	color : #11F7F7;
+}
+
+
+
+
+
+
+
+
+
